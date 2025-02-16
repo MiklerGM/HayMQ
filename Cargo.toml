@@ -1,0 +1,11 @@
+[package]
+name = "haymq"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+bytes = "1"
+nom = "7"
+log = "0.4"
+env_logger = "0.9"
